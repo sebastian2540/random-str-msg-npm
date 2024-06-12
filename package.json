@@ -1,0 +1,19 @@
+{
+  "name": "random-str-msg-npm",
+  "version": "1.0.0",
+  "description": "Random String Messages NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sebastian Villada <sebastian.villada.jaramillo@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-str-msg-npm": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
